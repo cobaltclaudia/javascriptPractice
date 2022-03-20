@@ -1,2 +1,2 @@
-# reactPractice
-a repo to practice learning react
+# javascriptPractice
+a repo to practice learning javascript
