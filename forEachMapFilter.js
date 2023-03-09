@@ -16,6 +16,8 @@ const todos = [
     }
 ];
 
+console.log('forEachMapFilter.js')
+
 //for(let i=0; i < todos.length; i++){
 //    console.log('for '+todos[0].text);
 //}
@@ -49,3 +51,6 @@ const todoCompleted = todos.filter(function(todo) {
     return todo.text;
 });
 console.log(todoCompleted)
+
+// arrow function
+todos.forEach((todo) => console.log(todo));
