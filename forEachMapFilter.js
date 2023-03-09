@@ -46,7 +46,7 @@ console.log('forEachMapFilter.js')
 
 // filter
 const todoCompleted = todos.filter(function(todo) {
-    return todo.isCompleted == true;
+    return todo.isCompleted === true;
 }).map(function(todo){
     return todo.text;
 });
